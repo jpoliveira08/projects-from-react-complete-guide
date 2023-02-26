@@ -11,7 +11,7 @@ const ExpenseItem = (props) => {
   // Using useState, should be inside the component function
   const [title, setTitle] = useState(props.title);
 
-  // Convention for those function, if trihher with an event you should end with 'handler'
+  // Convention for those function, if trigger with an event you should end with 'handler'
   const clickHandler = () => {
     setTitle("Updated!");
   }
